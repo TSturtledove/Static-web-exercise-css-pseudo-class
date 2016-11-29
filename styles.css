@@ -7,5 +7,16 @@ h1 {
 .top {
   display: flex;
   justify-content: space-around;
+  flex-wrap: nowrap;
   list-style: none;
 }
+
+.inline {
+  display: block;
+  border: 1px solid black;
+  margin: 25px;
+}
+
+
+/*In the article element with the class n-child
+add a 1 pixel border around every even numbered section element.*/
