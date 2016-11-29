@@ -18,5 +18,7 @@ h1 {
 }
 
 
-/*In the article element with the class n-child
-add a 1 pixel border around every even numbered section element.*/
+
+.n-child section:nth-of-type(even) {
+  border: 1px solid black;
+}
